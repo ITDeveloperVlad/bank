@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bank</title>
+</head>
+<body>
+  <div class="main">
+    <div class="cassets-count">
+      <label for="cassettesCount" class="cassettes-label"> Введите количество кассет от 1 до 8: </label>
+      <input type="number" name="cassettesCount" id="cassettes-input"  min="1" max="8" required>
+    </div>
+    <form class="cassetes-container">
+      <div class="invalide-block">
+        Диапазон от 1 до 8!
+      </div>
+      <div class="div-count">
+        <label>Введите сумму: <input id="amount" type="text" onkeypress='validate(event)'></label>
+        <button class="btn-count" type="button">Выдать</button>
+        <button class="btn-state" type="button">Состояние кассет</button>
+      </div>
+      <div class="result-block"></div>
+      <div class="time-block"></div>
+      <div class="invalide-cassets-block"></div>
+    </form>
+  </div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+  background-color: #D3D3D3;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.main {
+    margin: 15% 25%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    padding:30px 0;
+}
+
+.cassets-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cassettes-label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+#cassettes-input {
+  margin-left: 1rem;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.cassetes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cassets-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.2rem;
+  border: none;
+}
+
+.cassets-form label {
+  margin: 0 0.4rem;
+}
+
+.invalide-block {
+  margin: 1rem;
+  width: 400px;
+  height: 30px;
+  display: none;
+  background-color: #FA8072;
+  border: 1px solid white;
+  border-radius: 5%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-count {
+  width: 25%;
+}
+
+.btn-state {
+  width: 30%;
+  margin-left: 0.5rem;
+}
+
+.div-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#amount {
+  width: 50%;
+  margin: 0 0.4rem;
+}
+
+.result-block {
+  padding: 2rem 0;
+  margin: 1rem;
+  width: 400px;
+  display: none;
+  background-color: #FA8072;
+  border: 1px solid white;
+  border-radius: 5%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-block {
+  padding: 2rem 0;
+  margin: 1rem;
+  width: 400px;
+  display: none;
+  background-color: #00BFFF;
+  border: 1px solid white;
+  border-radius: 5%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.invalide-cassets-block {
+  padding: 2rem 0;
+  margin: 1rem;
+  width: 400px;
+  display: none;
+  background-color: #FFD700;
+  border: 1px solid white;
+  border-radius: 5%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
